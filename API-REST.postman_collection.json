@@ -16,7 +16,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"name\" : \"and\",\r\n    \"email\": \"and@ufc.br\"\r\n}",
+							"raw": "{\r\n    \"name\" : \"and\",\r\n    \"email\": \"and@ufc.br\" \"email\": \"and@alu.ufc.br\" \r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
