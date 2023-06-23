@@ -1,0 +1,49 @@
+section{
+    background: url('bg.jpg') no-repeat;
+    animation: animateBg 5s linear infinite;
+}
+
+@keyframes  animateBg {
+        100% {
+            filter: hue-rotate(360deg);
+        }
+}
+
+.cima {
+    position: relative;
+    display: flex;
+    height: 320px;
+    justify-content: center;
+}
+
+.baixo {
+    position: relative;
+    display: flex;
+    height: 320px;
+    justify-content: center;
+}
+
+.container {
+    position: relative;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+strong {
+    color: white;
+}
+
+.image {
+    display: block;
+    width: 300px;
+    height: 250px;
+}
+
+
+.buttons {
+    margin-top: 10px;
+}
+
+.buttons button {
+    margin-right: 5px;
+}
