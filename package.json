@@ -1,7 +1,7 @@
 {
   "name": "api-rest",
   "version": "1.0.0",
-  "description": "",
+  "description": "1. Clonando o repo: ```bash git clone https://github.com/anderson-uchoa/api-rest-example.git cd api-rest-example ```",
   "main": "index.js",
   "keywords": [],
   "author": "",
@@ -11,13 +11,16 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.22",
-    "prisma": "^4.15.0",
+    "prisma": "^4.16.1",
     "sucrase": "^3.32.0"
   },
   "dependencies": {
-    "@prisma/client": "^4.15.0",
+    "@prisma/client": "^4.16.1",
+    "@types/node": "^20.3.1",
+    "body-parser": "^1.20.2",
     "config": "^3.3.9",
     "dotenv": "^16.1.4",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "ts-node": "^10.9.1"
   }
 }
