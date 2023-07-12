@@ -1,0 +1,21 @@
+version: '3'
+services:
+
+  postgres:
+    # Para obter mais detalhes sobre como configurar a imagem Postgres Docker, consulte:
+    #   https://hub.docker.com/_/postgres/
+    image: postgres:10.3-alpine
+
+    # Porta padrão
+    ports:
+      - '5432:5432'
+    network_mode: bridge # port available on localhost 
+    container_name: postgres_docker
+
+    environment:
+      POSTGRES_USER: 'postgres'
+      POSTGRES_PASSWORD: 'pgpass'
+      POSTGRES_DB: 'postgres'
+
+    volumes:
+      - ./initdb:/docker-entrypoint-initdb.d
